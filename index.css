@@ -1,0 +1,53 @@
+body {
+	background-color: rgb(125,187,188);
+}
+
+h1 {
+	color: white;
+	font-family: Dosis;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	font-size: 50px;
+}
+
+h2{
+	color: 	rgb(93,73,48);
+	margin-bottom: 3px;
+}
+
+p {
+	font-size: 30px;
+	color: 	rgb(185,214,86);
+}
+
+form {
+	font-family: Dosis;
+	background-color: rgb(254,254,254);
+	text-align: center;
+	width: 40%;
+	border-radius: 5px;
+	margin-left: 30%;
+	margin-top: 50px;
+	padding: 5px 0px 20px 0px;
+	border-left: 8px solid rgb(206,235,239);
+	border-bottom: 8px solid rgb(206,235,239);
+	border-top: 4px solid rgb(206,235,239);
+	border-right: 4px solid rgb(206,235,239);
+	box-shadow: -3px 5px 10px grey;
+}
+
+.radio-period {
+	display: inline-block;
+	color: rgb(93,73,48);
+}
+
+button {
+	background-color: 	rgb(185,214,86);
+	font-family: Dosis;
+	font-size: 18px;
+	margin-top: 10px;
+	width: 60%;
+	color: #fff;
+	border-radius: 3px;
+}

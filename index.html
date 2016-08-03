@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+  </head>
+  
+  <body>
+    
+    <h1>Mortgage Calculator</h1>
+    
+    <form action="javascript(0)">
+    <div class= "input">
+      <h2>Loan Balance:</h2>
+      <input type="number" name="loanBalance" id= "loanBalance" placeholder="$">
+      </div>
+    <div class= "input">
+      <h2>Interest Rate</h2>
+      <input type="number" name="interestRate" id= "interestRate" placeholder="%">
+    </div>
+    <div class= "input">
+      <h2>Loan Term:</h2>
+      <input type="number" name="loanTerm" id= "loanTerm" placeholder="years">
+      </div> 
+    
+
+    <div class= "period"> 
+    <h2>Payment Period:</h2>
+      <select id= "periodSelection">
+        <option value= "12">Monthly</option>
+        <option value= "6">Bi-Monthly</option>
+      </select>
+    </div> 
+    
+    <button type="button" id= "btnCalculateMortgage">Calculate monthly payment.</button>
+  
+    
+    <p id= "output"></p>
+
+    </form>
+
+
+<script src= "bower_components/jquery/dist/jquery.js"></script>
+
+  <script src= "index.js"></script>
+  </body>
+  <footer>
+  
+  
+  </footer>
+</html>
